@@ -49,5 +49,6 @@ class Charstuff
 			str2=str2+str1.substring(i,i+1);
 		}
 		System.out.println("received data is         "+str2);
+	        System.out.println("Hello");
 		}
 }       
