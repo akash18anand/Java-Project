@@ -25,6 +25,7 @@ public class sort_client {
                                     System.out.println("Data Sent");
                                     DataInputStream din=new DataInputStream(s.getInputStream());
                                     int r;
+		                    System.out.println("Ration");
                                     System.out.println("Receiving Sorted Data...");
 									System.out.println("Sorted Array:");
                                     for(int i=0;i<n;i++)
